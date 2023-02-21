@@ -1,5 +1,5 @@
 // Dev C++
-// WAP to find max. from given 3 no. using nested if else.
+// WAP to find min. from given 3 no. using nested if else.
 
 #include<stdio.h>
 
@@ -18,19 +18,19 @@ main()
 	printf("Enter the value of c : ");
 	scanf("%d",&c);
 	
-	if(a>b&&a>c)
+	if(a<b&&a<c)
 	{
-		printf("a is maximum");
+		printf("a is minimum");
 	}
 	else
 	{
-		if(b>c)
+		if(b<c)
 		{
-		printf("b is maximum");
+		printf("b is minimum");
 	    }
 	    else
 	    {
-	    printf("c is maximum");
+	    printf("c is minimum");
 		}	
 	}
 }
