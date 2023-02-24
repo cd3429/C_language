@@ -6,7 +6,7 @@ main()
 	
 	float a,b,c,b1,b2,b3,b4,sum ;
 	
-	printf("Enter a value : "); scanf("%f",a);
+	printf("Enter a value : "); scanf("%f",&a);
 	
 	if(a>0 && a<=50)
 		{
