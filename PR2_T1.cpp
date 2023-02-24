@@ -11,5 +11,17 @@ main()
 	{
 		printf("Capital Alphabet");
 	}
+	else if(a>='a'&&a<='z')
+	{
+		printf("Small Alphabet");
+	}
+	else if(a>='0'&&a<='9')
+	{
+		printf("Digit");
+	}
+	else
+	{
+		printf("Special Character");
+	}
 	
 }
