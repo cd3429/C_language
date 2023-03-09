@@ -1,30 +1,20 @@
-/*
-
-12345
-1234
-123
-12
-1
-
-*/
-
-
-
 #include<stdio.h>
 
 main()
-
 {
 	
-	int i,j ;
+	int i,j,d;
 	
 	for(i=5;i>=1;i--)
 	{
+		d=5 ;
 		for(j=1;j<=i;j++)
 		{
-			printf("%d ",j);
+			printf("%d",d);
+			d--;
 		}
 		printf("\n");
 	}
-		
+	
+	
 }

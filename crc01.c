@@ -1,19 +1,6 @@
-/*
-
-1
-12
-123
-1234
-12345
-
-*/
-
-
-
 #include<stdio.h>
 
 main()
-
 {
 	
 	int i,j ;
@@ -22,9 +9,10 @@ main()
 	{
 		for(j=1;j<=i;j++)
 		{
-			printf("%d ",j);
+			printf("%d",j);
 		}
 		printf("\n");
 	}
-		
+	
+	
 }
