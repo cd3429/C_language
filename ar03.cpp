@@ -3,7 +3,8 @@
 main()
 {
 	
-	int n,i,count=0 ;
+	int n,i,count=0,sum=0 ;
+	float avg ;
 	
 	printf("Enter the size of the array : ");
 	scanf("%d",&n);
@@ -24,10 +25,14 @@ main()
 	{
 		printf(" %d ",a[i]);
 		count++;
+		sum=sum+a[i];
 	}
+	
+	avg = sum/count ;
 	
 	printf("}");
 	
 	printf("\n The number of element is : %d ", count);
+    printf("\n The average of the array is : %f ", avg);
 
 }
